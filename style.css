@@ -206,6 +206,20 @@
 
 }
 
+.demo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 90vh;
+
+    padding: 50px;
+
+    background-color: #d89b5a;
+
+}
+
 
 /* HOME IMAGE */
 
@@ -227,7 +241,7 @@
 
 
 
-/* TEXT */
+/* HERO TEXT */
 
 .hero__content {
 
@@ -250,6 +264,7 @@
     font-size: 1.2rem;
 
 }
+
 
 .carousel {
 
@@ -419,7 +434,13 @@ background: white;
 
 }
 
-
+.gameplay-video {
+    width: 80%;       
+    max-width: 800px; 
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    outline: none;
+}
 
 
 

@@ -452,9 +452,9 @@ background: white;
 }
 
 .demo__text {
-    margin-top: 30px; /* Creates space between the video and the text */
+    margin-top: 30px; 
     color: white;
-    max-width: 600px; /* Keeps the text from getting too wide */
+    max-width: 800px; 
 }
 
 .demo__text h2 {
@@ -465,5 +465,17 @@ background: white;
 .demo__text p {
     font-size: 1.2rem;
     line-height: 1.6;
+    text-align: justify; /* Optional: makes the edges of the paragraph even */
+}
+
+@media screen and (max-width: 960px) {
+    .demo {
+        padding: 20px;
+        min-height: auto; /* Let the content define the height on mobile */
+    }
+    
+    .demo__text h2 {
+        font-size: 1.8rem; /* Smaller heading for mobile */
+    }
 }
 

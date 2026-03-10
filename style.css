@@ -433,7 +433,7 @@ background: white;
 }
 
 .gameplay-video {
-    width: 80%;       
+    width: 90%;    
     max-width: 800px; 
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -444,9 +444,9 @@ background: white;
     display: flex;
     flex-direction: column; 
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; 
 
-    min-height: 100vh;
+    min-height: 100vh; 
     padding: 100px 50px;
     
     background-color: #d89b5a;
@@ -468,17 +468,17 @@ background: white;
 .demo__text p {
     font-size: 1.2rem;
     line-height: 1.6;
-    text-align: justify; /* Optional: makes the edges of the paragraph even */
+    text-align: justify; 
 }
 
 @media screen and (max-width: 960px) {
     .demo {
         padding: 20px;
-        min-height: auto; /* Let the content define the height on mobile */
+        min-height: auto; 
     }
     
     .demo__text h2 {
-        font-size: 1.8rem; /* Smaller heading for mobile */
+        font-size: 1.8rem;
     }
 }
 

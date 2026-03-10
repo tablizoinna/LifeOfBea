@@ -303,20 +303,25 @@ height: 100%;
 
 .carousel__card {
 
-    position: absolute;
-    width: 250px;
-    transition: all 0.5s ease;
-    opacity: 0.5;
-    transform: scale(0.7);
-    z-index: 1;
+position: absolute;
+
+width: 250px;
+
+transition: all 0.5s ease;
+
+opacity: 0.5;
+
+transform: scale(0.7);
+
+z-index: 1;
 
 }
 
 
 .carousel__card img {
-    
-    width: 100%;
-    border-radius: 15px;
+
+width: 100%;
+border-radius: 15px;
 
 }
 
@@ -324,10 +329,12 @@ height: 100%;
 /* CENTER CARD */
 
 .carousel__card.active {
-    
-    transform: scale(1.2);
-    opacity: 1;
-    z-index: 5;
+
+transform: scale(1.2);
+
+opacity: 1;
+
+z-index: 5;
 
 }
 
@@ -335,8 +342,8 @@ height: 100%;
 /* LEFT */
 
 .carousel__card.left {
-    
-    transform: translateX(-250px) scale(0.8);
+
+transform: translateX(-250px) scale(0.8);
 
 }
 
@@ -344,8 +351,8 @@ height: 100%;
 /* RIGHT */
 
 .carousel__card.right {
-    
-    transform: translateX(250px) scale(0.8);
+
+transform: translateX(250px) scale(0.8);
 
 }
 
@@ -354,33 +361,43 @@ height: 100%;
 /* ARROWS */
 
 .carousel__btn {
-    
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 40px;
-    background: rgb(245, 202, 153);
-    border: none;
-    border-radius: 25px;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 10;
+
+position: absolute;
+
+top: 50%;
+
+transform: translateY(-50%);
+
+font-size: 40px;
+
+background: rgb(245, 202, 153);
+
+border: none;
+
+border-radius: 25px;
+
+color: white;
+
+cursor: pointer;
+
+padding: 10px;
+
+z-index: 10;
+
 
 }
 
 .prev {
-    
-    left: 50px;
+
+left: 50px;
 
 }
 
 .next {
-    
-    right: 50px;
+
+right: 50px;
 
 }
-
 
 
 /* DOTS */

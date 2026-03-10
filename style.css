@@ -440,5 +440,30 @@ background: white;
     outline: none;
 }
 
+.demo {
+    display: flex;
+    flex-direction: column; /* This stacks items vertically */
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh; /* Changed from height to min-height to fit extra text */
+    padding: 50px;
+    background-color: #d89b5a;
+    text-align: center; /* Centers the text alignment */
+}
 
+.demo__text {
+    margin-top: 30px; /* Creates space between the video and the text */
+    color: white;
+    max-width: 600px; /* Keeps the text from getting too wide */
+}
+
+.demo__text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.demo__text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
 

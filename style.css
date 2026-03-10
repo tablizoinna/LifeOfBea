@@ -442,13 +442,13 @@ background: white;
 
 .demo {
     display: flex;
-    flex-direction: column; /* This stacks items vertically */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-    min-height: 90vh; /* Changed from height to min-height to fit extra text */
+    min-height: 90vh; 
     padding: 50px;
     background-color: #d89b5a;
-    text-align: center; /* Centers the text alignment */
+    text-align: center;
 }
 
 .demo__text {

@@ -17,7 +17,7 @@
     z-index: 999;
 }
 
-.navbar__container {
+.navbar_container {
     display: flex;
     justify-content: space-between;
     height: 88px;
@@ -28,7 +28,7 @@
     padding: 0 50px;
 }
 
-#navbar__logo {
+#navbar_logo {
     background-image: url("images/logo_new.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -41,18 +41,18 @@
     margin-right: 0.5rem;
 }
 
-.navbar__menu {
+.navbar_menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
 
-.navbar__item {
+.navbar_item {
     height:  80px;
 }
 
-.navbar__links {
+.navbar_links {
     color: #fff;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     height: 100%;
 }
 
-.navbar__btn {
+.navbar_btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,13 +91,13 @@
     color: rgb(228, 232, 245);
 }
 
-.navbar__links:hover {
+.navbar_links:hover {
     color: rgb(173, 142, 107);
     transition: all 0.3s ease;
 }
 
 @media screen and (max-width:960px) {
-    .navbar__container {
+    .navbar_container {
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -107,7 +107,7 @@
         padding: 0;
     }
 
-    .navbar__menu {
+    .navbar_menu {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
@@ -121,7 +121,7 @@
         background: rgb(245, 202, 153);
     }
 
-    .navbar__menu.active {
+    .navbar_menu.active {
         background: rgb(245, 202, 153);
         top: 100%;
         opacity: 1;
@@ -131,11 +131,11 @@
         font-size: 1.6rem;
     }
 
-    #navbar__logo {
+    #navbar_logo {
         padding-left: 25px;
     }
 
-    .navbar__toggle .bar {
+    .navbar_toggle .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -143,11 +143,11 @@
         background: #fff;
     }
 
-    .navbar__item {
+    .navbar_item {
         width: 100%;
     }
 
-    .navbar__links {
+    .navbar_links {
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -161,7 +161,7 @@
         transform: translate(5%, 20%);
     }
     
-    .navbar__btn {
+    .navbar_btn {
         padding-bottom: 2rem;
     }
 
@@ -174,7 +174,7 @@
         margin: 0;
     }
 
-    .navbar__toggle .bar {
+    .navbar_toggle .bar {
         display: block;
         cursor: pointer;
     }
@@ -223,7 +223,7 @@
 
 /* HOME IMAGE */
 
-.hero__image {
+.hero_image {
 
     width: 500px;
     height: 400px;
@@ -243,7 +243,7 @@
 
 /* HERO TEXT */
 
-.hero__content {
+.hero_content {
 
     margin-left: 50px;
 
@@ -253,13 +253,13 @@
 
 }
 
-.hero__content h1 {
+.hero_content h1 {
 
     font-size: 3rem;
 
 }
 
-.hero__content p {
+.hero_content p {
 
     font-size: 1.2rem;
 
@@ -276,7 +276,7 @@ color: #fff;
 }
 
 
-.carousel__container {
+.carousel_container {
     position: relative;
     width: 100%;
     height: 450px; 
@@ -287,7 +287,7 @@ color: #fff;
 }
 
 
-.carousel__track {
+.carousel_track {
 
 display: flex;
 align-items: center;
@@ -301,7 +301,7 @@ height: 100%;
 
 /* CARDS */
 
-.carousel__card {
+.carousel_card {
 
 position: absolute;
 
@@ -318,7 +318,7 @@ z-index: 1;
 }
 
 
-.carousel__card img {
+.carousel_card img {
 
 width: 100%;
 border-radius: 15px;
@@ -328,7 +328,7 @@ border-radius: 15px;
 
 /* CENTER CARD */
 
-.carousel__card.active {
+.carousel_card.active {
 
 transform: scale(1.2);
 
@@ -341,7 +341,7 @@ z-index: 5;
 
 /* LEFT */
 
-.carousel__card.left {
+.carousel_card.left {
 
 transform: translateX(-250px) scale(0.8);
 
@@ -350,7 +350,7 @@ transform: translateX(-250px) scale(0.8);
 
 /* RIGHT */
 
-.carousel__card.right {
+.carousel_card.right {
 
 transform: translateX(250px) scale(0.8);
 
@@ -360,7 +360,7 @@ transform: translateX(250px) scale(0.8);
 
 /* ARROWS */
 
-.carousel__btn {
+.carousel_btn {
 
 position: absolute;
 
@@ -402,7 +402,7 @@ right: 50px;
 
 /* DOTS */
 
-.carousel__dots {
+.carousel_dots {
     
     margin-top: 20px;
 
@@ -447,19 +447,19 @@ right: 50px;
     text-align: center;
 }
 
-.demo__text {
+.demo_text {
     margin-top: 40px; 
     color: white;
     max-width: 800px; 
     width: 90%;    
 }
 
-.demo__text h2 {
+.demo_text h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.demo__text p {
+.demo_text p {
     font-size: 1.2rem;
     line-height: 1.6;
     text-align: justify; 
@@ -471,7 +471,7 @@ right: 50px;
         min-height: auto; 
     }
     
-    .demo__text h2 {
+    .demo_text h2 {
         font-size: 1.8rem;
     }
 }

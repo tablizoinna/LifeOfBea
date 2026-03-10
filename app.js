@@ -1,5 +1,5 @@
 const menu = document.querySelector('#mobile-menu')
-const menuLinks = document.querySelector('.navbar__menu')
+const menuLinks = document.querySelector('.navbar_menu')
 
 menu.addEventListener('click', function(){
     menu.classList.toggle('is-active');
@@ -7,7 +7,7 @@ menu.addEventListener('click', function(){
 })
 
 /* environment carousel */
-const cards = document.querySelectorAll(".carousel__card");
+const cards = document.querySelectorAll(".carousel_card");
 
 const dots = document.querySelectorAll(".dot");
 s

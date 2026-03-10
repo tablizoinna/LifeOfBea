@@ -6,11 +6,11 @@ menu.addEventListener('click', function(){
     menuLinks.classList.toggle('active');
 })
 
-/* envi carousel */
+/* environment carousel */
 const cards = document.querySelectorAll(".carousel__card");
 
 const dots = document.querySelectorAll(".dot");
-
+s
 const next = document.querySelector(".next");
 
 const prev = document.querySelector(".prev");
